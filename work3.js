@@ -1,5 +1,5 @@
-// 3. Tapşırıq
-// 1-dən verilən ədədə qədər olan cüt ədədlərin cəmini hesablayan funksiya yaz.
+// // 3. Tapşırıq
+// // 1-dən verilən ədədə qədər olan cüt ədədlərin cəmini hesablayan funksiya yaz.
 
 function hesabla(eded){
     let sum = 0

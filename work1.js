@@ -1,5 +1,5 @@
-// 1. Tapşırıq
-// Verilən ədədin tərsini tapan funksiya yaz.
+// // 1. Tapşırıq
+// // Verilən ədədin tərsini tapan funksiya yaz.
 
 function tapin(eded){
     let ters = "";
@@ -12,3 +12,7 @@ function tapin(eded){
 }
 
 console.log(tapin("hello"));
+
+
+
+
