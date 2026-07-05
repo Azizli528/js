@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./works.css">
 </head>
 
 <body>
-    <form action="">
+    <form action="" class="form">
         <h2>Simple Order Form</h2>
         <p>Please fill out the form below to place your order.</p>
-
+        <label for="product" class="form-label">Product:</label>
         <select name="" id="product">
             <option value="" disabled selected>Select a product you want to order</option>
             <option value="product 1">Product 1</option>
@@ -26,23 +27,35 @@
         <input id="date" type="date" placeholder="Select a date"> <br><br>
 
         <label for="delivery">Delivery Time</label><br>
-        <input type="radio" id="time1" value="9:00 AM - 11:00 AM" name="delivery"> <label for="time1">9:00 AM - 11:00
-            AM</label> <br>
-        <input type="radio" id="time2" value="1:00 PM - 3:00 PM" name="delivery"> <label for="time2">1:00 PM - 3:00
-            PM</label> <br>
-        <input type="radio" id="time3" value="11:00 AM - 1:00 PM" name="delivery"> <label for="time3">11:00 AM - 1:00
-            PM</label> <br>
-        <input type="radio" id="time4" value="3:00 PM - 5:00 PM" name="delivery"> <label for="time4">3:00 PM - 5:00
-            PM</label> <br>
+        <div class="div">
+            <div class="div1">
+                <input type="radio" id="time1" value="9:00 AM - 11:00 AM" name="delivery"> <label for="time1">9:00 AM -
+                    11:00
+                    AM</label> <br>
+                <input type="radio" id="time2" value="1:00 PM - 3:00 PM" name="delivery"> <label for="time2">1:00 PM -
+                    3:00
+                    PM</label> <br>
+            </div>
+            <div class="div2">
+                <input type="radio" id="time3" value="11:00 AM - 1:00 PM" name="delivery"> <label for="time3">11:00 AM -
+                    1:00
+                    PM</label> <br>
+                <input type="radio" id="time4" value="3:00 PM - 5:00 PM" name="delivery"> <label for="time4">3:00 PM -
+                    5:00
+                    PM</label>
+            </div>
+        </div> <br>
 
         <label for="name">Name:</label> <br>
         <input id="name" type="text" placeholder="Enter your name"> <br><br>
 
-        <label for="email">Email:</label>
-        <input id="email" type="text" placeholder="Email">
+        <div class="block">
 
-        <label for="phone">Phone:</label>
-        <input id="phone" type="tel" placeholder="+994 00 000 00 00"> <br><br>
+            <input id="email" type="text" placeholder="Email">
+
+
+            <input id="phone" type="tel" placeholder="+994 00 000 00 00">
+        </div> <br><br>
 
         <label for="Comments">Additional Comments:</label> <br>
         <textarea id="Comments" rows="5" cols="40" placeholder="Enter any additional comments"></textarea> <br><br>
