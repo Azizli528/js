@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form id="registerForm" >
+    <h2>Qeydiyyat Formu</h2>
+
+    
+    <div class="form-group">
+      <label for="username">İstifadeci adi (Username):</label>
+      <input type="text" id="username" name="username">
+      <span class="error-message" id="usernameError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="mail">Mail adi (Login mail):</label>
+      <input type="text" id="mail" name="mail">
+      <span class="error-message" id="mailError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="email">E-poçt (Email):</label>
+      <input type="email" id="email" name="email">
+      <span class="error-message" id="emailError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="password">Sifre (Password):</label>
+      <input type="password" id="password" name="password">
+      <span class="error-message" id="passwordError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="age">Yas (Age):</label>
+      <input type="number" id="age" name="age">
+      <span class="error-message" id="ageError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="country">Olke (Country):</label>
+      <select id="country" name="country">
+        <option value="">Olke secin</option>
+        <option value="AZ">Azerbaycan</option>
+        <option value="TR">Turkiye</option>
+        <option value="US">USE</option>
+        <option value="UK">UK</option>
+      </select>
+      <span class="error-message" id="countryError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label>Cins (Gender):</label>
+      <div class="radio-group">
+        <label><input type="radio" id="genderMale" name="gender" value="kisi"> Kisi</label>
+        <label><input type="radio" id="genderFemale" name="gender" value="qadin"> Qadin</label>
+      </div>
+      <span class="error-message" id="genderError"></span>
+    </div>
+
+    
+    <div class="form-group">
+      <label>Hobbiler (Hobbies):</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="hobbyCoding" name="hobbies" value="coding"> Proqramlasdirma</label>
+        <label><input type="checkbox" id="hobbySports" name="hobbies" value="sports"> İdman</label>
+        <label><input type="checkbox" id="hobbyReading" name="hobbies" value="reading"> Oxumaq kitab</label>
+      </div>
+      <span class="error-message" id="hobbiesError"></span>
+    </div>
+
+    <button type="submit">Qeydiyyatdan kec</button>
+  </form>
+
+  <script src="./style.js"></script>
+</body>
+</html>
