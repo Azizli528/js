@@ -1,0 +1,35 @@
+.complete{
+    text-decoration: line-through;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    margin-left: 40px;
+    border-radius: 8px;
+    color: white;
+}
+
+.delete{
+    margin-left: 20px;
+}
+
+.lii{
+    margin-bottom: 10px;
+    font-size: 18px;
+    list-style-type: decimal;
+}
